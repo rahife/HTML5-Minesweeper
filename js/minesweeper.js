@@ -401,6 +401,8 @@ var action = {
 						
 						alpha = alpha + .1;
 						
+						console.log(alpha);
+						
 						if(alpha > 1){
 							window.clearInterval(squareFade);
 						}
